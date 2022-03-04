@@ -1,0 +1,38 @@
+{
+  "name": "is-today-monday",
+  "version": "1.0.0",
+  "description": "Checks if today is monday.",
+  "main": "./src/index",
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src *.js",
+    "lint:fix": "eslint --fix src",
+    "lint:typings": "tslint typings/index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishprivet/is-today-monday.git"
+  },
+  "keywords": [
+    "monday",
+    "util",
+    "fun"
+  ],
+  "author": "Manish Kumar <me@manishk.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manishprivet/is-today-monday/issues"
+  },
+  "homepage": "https://github.com/manishprivet/is-today-monday",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "eslint": "^8.10.0",
+    "tslint": "^6.1.3",
+    "tslint-config-typings": "^0.3.1",
+    "typescript": "^4.6.2"
+  }
+}
